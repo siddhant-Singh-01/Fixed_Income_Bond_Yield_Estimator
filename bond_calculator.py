@@ -85,7 +85,7 @@ class bond_calc:
             return round(self.interest_rate, 2)
         else: 
             # this signifies no yield has been found
-            return -1
+            return None
             
         
     
